@@ -3,8 +3,6 @@ import { loginUser, logoutUser, registerUser, refreshAccessToken} from '../contr
 import {upload} from '../middlewares/multer.middleware.js'
 import {verifyJWT} from '../middlewares/auth.middleware.js'
 
-
-
 const router = Router()
 
 router.route(("/register")).post(
